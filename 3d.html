@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapi: The Rescue Drone</title>
+    <link rel="icon" type="image/png" href="./assets/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Kapi" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section id="header">
+        <div><img src="./assets/logo.png" id="logo" alt=""></div>
+        <div class="right">
+            <div class="gas-alert">
+                <div class="gas-alert-icon">
+                    <i class="bi bi-exclamation-triangle"></i>
+                </div>
+                <div class="gas-alert-text">Gas Alert</div>
+            </div>
+            <div class="connect">
+                <img src="./assets/not-connected.png" class="connection not">
+                <img src="./assets/connected.png" alt="" class="connection yes">
+            </div>
+        </div>
+    </section>
+    <section id="nav">
+        <div class="nav">
+            <div class="nav-el"><a href="./"><i class="bi bi-house-fill"></i><span>Home</span></a></div>
+            <div class="nav-el active"><a href="./3d.html"><i class="bi bi-badge-3d-fill"></i><span>3D Visials</span></a></div>
+            <div class="nav-el"><a href="./ir.html"><i class="bi bi-camera-fill"></i><span>IR Image</span></a></div>
+            <div class="nav-el"><a href="./livemonitoring.html"><i class="bi bi-person-video"></i><span>Live Monitoring</span></a></div>
+        </div>
+    </section>
+    <section id="main">
+        <div id="container3D" style="width: 100%; height: 80vh;"></div>
+    </section>
+    <script src="./js/index.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/main1.js"></script>
+</body>
+</html>

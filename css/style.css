@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+}
+
+#logo{
+    width: 250px;
+    /* margin: 30px 0px 0px 30px; */
+}
+
+.connect{
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection{
+    height: 109;
+    padding: 30px;
+}
+
+.yes{
+    display: none;
+}
+
+.gas-alert{
+    width: 9rem;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 1.25rem 1.25rem;
+    background: #131A3F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+}
+
+.gas-alert-icon{
+    display: none;
+}
+
+.gas-alert-text{
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bi-exclamation-triangle{
+    color: #fff;
+    font-size: 6rem;
+}
+
+
+.nav{
+    padding: 3rem 2rem;
+    background-color: #131A3F;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: space-around;
+    border-radius: 0rem 1.25rem 1.25rem 0rem;
+    position: fixed;
+    z-index: 100;
+}
+
+
+.nav div a{
+    display: flex;
+    gap: 1rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.nav-el{
+    font-size: 2.5rem;
+    color: #FFF;
+}
+
+.nav span{
+    font-family: "Concert One";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    display: none;
+}
+
+.active i, .active span{
+    color: #55BBF1;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    align-items: start;
+}
+
+#main{
+    margin: 3rem 4.5rem 4.5rem 9.6rem;
+}
+
+
+#main>div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#container3D{
+    width: 38rem;
+    height: 23.1875rem;
+    border: 5px solid #131A3F;
+}
+
+.container1{
+    width: 38rem;
+    height: 23.1875rem;
+    border: 5px solid #131A3F;
+}
+
+.cont2{
+    margin-top: 2.5rem;
+    height: 23.1875rem;
+}
+
+table{
+    border: 2px solid #131a3f;
+}
+
+ul{
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+li{
+    font-weight: 600;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1>img{
+    height: 100%;
+}
+
+.container2{
+    display: none;
+}
